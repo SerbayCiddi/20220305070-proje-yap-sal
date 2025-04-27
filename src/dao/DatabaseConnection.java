@@ -4,9 +4,9 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class DatabaseConnection {
-    private static final String URL = "jdbc:mysql://localhost:3306/20220305070"; // Veritabanı adını kendine göre değiştir
-    private static final String USER = "root";     // kendi kullanıcı adın
-    private static final String PASSWORD = "";     // kendi MySQL şifren
+    private static final String URL = "jdbc:mysql://localhost:3306/20220305070";
+    private static final String USER = "root";    
+    private static final String PASSWORD = "";    
 
     public static Connection connect() {
         try {
