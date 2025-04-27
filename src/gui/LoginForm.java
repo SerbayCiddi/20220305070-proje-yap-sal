@@ -29,10 +29,10 @@ public class LoginForm extends JFrame {
 
         add(panel);
 
-        // Butonlar
+        
         loginBtn.addActionListener(e -> {
             JOptionPane.showMessageDialog(this, "Giriş başarılı (örnek)");
-            new MainDashboard(); // örnek geçiş
+            new MainDashboard(); 
             dispose();
         });
 
